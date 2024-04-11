@@ -43,5 +43,6 @@ io.on('connection', (socket) => {
 app.use('/api/auth', authRoutes);
 app.use('/api/messages', messageRoutes);
 
-// Start server
+
+
 server.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
